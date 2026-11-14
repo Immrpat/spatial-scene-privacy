@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spatial Scene – Privacy Policy</title>
+<meta name="description" content="Spatial Scene collects no data. Photos are processed on your device and the app has no internet access.">
+<style>
+  :root { --bg:#fff; --fg:#1b1b2f; --muted:#5b5b73; --accent:#5a34e6; --card:#f4f1ff; --line:#e3ddf7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f0b24; --fg:#ece9fb; --muted:#a8a3c7; --accent:#a78bff; --card:#1a1440; --line:#2d2562; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 20px 64px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 4px; }
+  h2 { font-size:1.2rem; margin:2.2em 0 .4em; }
+  p, li { margin:.5em 0; }
+  ul { padding-left:1.3em; }
+  a { color:var(--accent); }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  .summary { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:4px 20px 12px; }
+  .summary h2 { margin-top:.9em; }
+  footer { margin-top:3em; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Spatial Scene – Privacy Policy</h1>
+  <p class="meta">Effective date: 14 November 2026</p>
+
+  <div class="summary">
+    <h2>The short version</h2>
+    <ul>
+      <li><strong>We collect no personal data.</strong> No accounts, no analytics, no ads, no tracking.</li>
+      <li><strong>Your photos never leave your phone.</strong> The 3D effect is calculated on the device.</li>
+      <li><strong>The app has no internet access.</strong> It does not request the Android INTERNET permission, so the system blocks any network connection.</li>
+    </ul>
+  </div>
+
+  <h2>About this policy</h2>
+  <p>This policy applies to the Android app <strong>Spatial Scene</strong> (package <code>com.spatialscene.app</code>), which turns a photo into a 3D scene that moves as you tilt your phone. It explains what the app does with your information. The app is published by an independent developer ("we", "us").</p>
+
+  <h2>Information we collect</h2>
+  <p>None. We do not collect, receive, store on a server, sell or share any personal information. We have no servers for this app.</p>
+
+  <h2>What the app uses on your device</h2>
+  <ul>
+    <li><strong>Photos you choose.</strong> When you tap "Choose photo", the app opens the Android system photo picker. The app receives only the single image you select and has no access to the rest of your library. It does not ask for storage or media permissions.</li>
+    <li><strong>Motion sensor.</strong> The app reads your phone's rotation sensor so the scene follows your tilt. The readings are used live on the device to move the picture. They are never saved or sent anywhere.</li>
+    <li><strong>On-device processing.</strong> Depth estimation and optional photo enhancement run locally using machine-learning models bundled inside the app. Nothing is uploaded for processing.</li>
+  </ul>
+
+  <h2>Files the app saves on your device</h2>
+  <ul>
+    <li><strong>Live wallpaper.</strong> If you set a scene as your wallpaper, the app keeps a reduced-size copy of the photo and its depth data in its own private storage so the wallpaper can display. Choosing another photo replaces it. Uninstalling the app deletes it.</li>
+    <li><strong>Exports.</strong> If you export a 3D web page or a video, the file is saved to <code>Downloads/SpatialScene</code> on your phone. These are your files; delete them whenever you like. Exports are built from the image pixels, so the original photo's metadata (such as camera details or location tags) is not copied into them.</li>
+    <li><strong>Temporary files.</strong> A video export briefly uses the app's cache folder, which Android can clear at any time.</li>
+    <li><strong>Backups.</strong> Android cloud backup is turned off for this app, so none of the above is copied to cloud backups.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Sharing is always your choice. When you tap Share, the app hands the file to the Android share sheet and you pick where it goes. From then on the file is handled by the app or person you chose, under their rules. Please remember that a 3D web page or video contains your photo, so anyone you send it to can see it. The 3D web page itself runs entirely in the viewer's browser and does not load anything from the internet or send anything back.</p>
+
+  <h2>Third-party software</h2>
+  <p>The app includes open-source components that run locally on your phone: ONNX Runtime, the Depth Anything V2 model and the Real-ESRGAN model. We removed the telemetry that ONNX Runtime would otherwise include. No third-party code in the app collects data or connects to a service. Licence texts are included in the app.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children and, because it collects no data, it does not knowingly collect any from anyone.</p>
+
+  <h2>Your choices and deletion</h2>
+  <p>Because we hold no data about you, there is nothing for us to access, correct or delete. To remove everything the app stored on your phone, uninstall it, and delete any exported files from <code>Downloads/SpatialScene</code>.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app's data practices ever change, we will update this page and its effective date before the change ships. Material changes will also be noted in the app's store listing.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy? Open an issue at <a href="https://github.com/Immrpat/spatial-scene-privacy/issues">github.com/Immrpat/spatial-scene-privacy/issues</a>.</p>
+
+  <footer>Spatial Scene Privacy Policy · Effective 14 November 2026</footer>
+</main>
+</body>
+</html>
